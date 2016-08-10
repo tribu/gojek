@@ -1,3 +1,16 @@
+Problem Statement :
+
+You have a complex infrastructure which requires multiple micro services to interact with each other. If given all the interactions are synchronous it will result in huge latencies and multiple point of failures.
+
+You notice Kafka has proven to be a powerful component solving this problem in organizations like LinkedIn, Netflix and more.
+
+Being a smart lazy ninja you like to automate everything.
+
+So you need to build a one click/command solution which should setup a Kafka cluster for any required configuration.
+You would like to use for setting up important environments like production with decent monitoring and logging placed in.
+Also, to make it easier enough for any person from Product Teams to spin-up a development container of their own.
+You are free to choose any configuration management tool and virtualisation technology.
+
 
 SOLUTION:
 1. I used the following to solve the problem
